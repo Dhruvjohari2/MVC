@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 
 const String baseUrl = "";
-const String postUrl = "https://gorest.co.in/public/v2/users";
+const String postUrl = "https://fakestoreapi.com/products";
 
 class GetData {
   var client = http.Client();
@@ -19,21 +19,5 @@ class GetData {
   }
 }
 
-// class PostData {
-//   var client = http.Client();
-//   Future<String?> post() async {
-//     var _payload = json.encode(object);
-//     final uri = Uri.parse(postUrl);
-//     final response = await client.post(
-//       uri,
-//       body: _payload,
-//     );
-//
-//     if (response.statusCode == 201) {
-//       return response.body;
-//     } else {
-//       //throw exception
-//     }
-//     return null;
-//   }
-// }
+
+
